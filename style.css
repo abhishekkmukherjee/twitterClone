@@ -1,8 +1,116 @@
+/* Here I have reset the margin and padding */
+
 *{
     margin: 0;
     padding: 0;
 }
+/* This below section is for the body tag styling */
 body{
     background-color: black;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/* Below is for the styling of logo image means twitter image */
+.logo img{
+    width: 2rem;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+/* Below is for the styling of nav bar */
+.nav-bar {
+    display: inline-block;
+    margin-left: 90px;
+    width: 33.33%;
+    
+
+}
+/* Below is for the styling of nav bar li */
+.nav-bar li{
+    list-style: none;
+    padding: 16px;
+   font-size: large;
+ 
+   
+}
+
+/* This below section is for nav bar list 's anchor tag styling */
+.nav-bar li a{
+    text-decoration: none;
+    padding: 2px;
+    color: rgb(247, 252, 252);
+ 
+}
+/* This below section is for active class styling */
+.active,.nav-bar li :hover{
+    color: #72f803;
+}
+
+/* This below section is for navbar li hover styling */
+.nav-bar li :hover{
+    color: #1f99f6;
+    cursor: pointer;
+   text-decoration: none;
+
+    
+}
+/* Below is for the styling of the nav list */
+
+.nav-list{
+    margin-top: 13px;
+}
+/* This is for  the styling of tweet button */
+.button{
+    color: white;
+    border-radius: 30px;
+    background-color: #1f99f6;
+    padding: 16px 90px 16px 90px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+/* This is for hovering effect in button  */
+.button:hover{
+    background-color: #561eda;
+    cursor: pointer;
+}
+.footer{
+    margin-left: 86px;
+}
+
+/* This below section is for the footer image */
+
+  .footer-logo img{
+      width:70px;
+      border-radius: 25px;
+      margin-top: 17px;
+      float: left;
+  }
+  /* This below section is for the footer details like my name and my userid in twitter */
+  .myName{
+      margin-top: 5px;
+      margin-left: 3px;
+      /* display: inline-block; */
+      margin: 22px 86px;
+      padding: 22px 5px;
+  }
+/* This below section is for my user id, I have changed colour in it.  */
+  .profile{
+      color: rgb(68, 67, 67);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
