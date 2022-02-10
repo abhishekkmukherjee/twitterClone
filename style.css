@@ -24,12 +24,14 @@ body{
     width: 33.33%;
     
 
+
 }
 /* Below is for the styling of nav bar li */
 .nav-bar li{
     list-style: none;
     padding: 16px;
-   font-size: large;
+    font-size: large;
+
  
    
 }
@@ -39,18 +41,22 @@ body{
     text-decoration: none;
     padding: 2px;
     color: rgb(247, 252, 252);
+    background-color: black;
  
 }
 /* This below section is for active class styling */
 .active,.nav-bar li :hover{
     color: #72f803;
+
 }
 
 /* This below section is for navbar li hover styling */
 .nav-bar li :hover{
-    color: #1f99f6;
+    color: #0a0a0a;
     cursor: pointer;
    text-decoration: none;
+background-color: rgb(120, 214, 243);
+border-radius: 60px;
 
     
 }
@@ -100,11 +106,313 @@ body{
   .profile{
       color: rgb(68, 67, 67);
   }
+  /* Styling the tweet section */
+  .tweetHeader{
+      margin-left: 20px;
+      margin-left: 422px;
+    margin-top: -684px;
+    border: #fcfcfc34;
+    border-style: ridge;
+    margin-right: 20px;
+    margin-right: 568px;
+    padding: 2px 2px 13px 67px;
+  }
+/* I have edited textarea below */
+.txtArea{
+    background-color: black;
+    color: white;
+    padding: 10px 83px 47px 86px;
+    margin: 2px 2px 38px 29px;
+    font-size: larger;
+    border: none;
+}
+
+/* Below I have edited the image near text area  */
+.txtAreaImg{
+    width:70px;
+    border-radius: 25px;
+margin: -61px;
+}
+/* Below i have edited the H3 tag of text area  */
+.hme{
+    margin: 0 0 0 -63px;
+}
+/* Below I have edited every icons of the text area  */
+#gallery{
+    padding: 0 6px 0 0;
+    cursor: pointer;
+    color: #1f99f6;
+}
+#poll{
+    padding: 0 6px 0 0;
+    cursor: pointer;
+    color: #1f99f6;
+}
+
+#smiley{
+    padding: 0 6px 0 0;
+    cursor: pointer;
+    color: #1f99f6;
+}
+#schedule{
+    padding: 0 6px 0 0;
+    cursor: pointer;
+    color: #1f99f6;
+}
+
+#map{
+    padding: 0 6px 0 0;
+    cursor: pointer;
+    color: #1f99f6;
+
+}
+/* Below I have edited the tweet button of thw text area */
+.txtBtn{
+    color: white;
+    border-radius: 30px;
+    background-color: #1f99f6;
+    padding: 5px 11px 5px 11px;
+   margin: 0 0 0px 263px;
+    font-family: 'Montserrat', sans-serif;
+    
+    text-decoration: none;
+   
+
+}
+.txtBtn:hover{
+    background-color: #4c08ec;
+    cursor: pointer;
+
+}
+/* below i have edited akshay kumar's section  */
+.thirdDiv{
+    border: 2px #fcfcfc34;;
+    border-style: ridge;
+    margin: 0 567px 0 422px;
+    padding: 2px 2px 34px 2px;
 
 
+}
+.akshayImg{
+    width:40px;
+    border-radius: 28px;
+   
+    
+}
+.txtAkshayname{
+    margin: -57px 0 0 57px;
+    padding: 0 0 0 0;
+}
+.txtAkshayId{
+    margin: 0 0 0 57px;
+    padding: 0 0 0 0;
+}
+.paisaDouble{
+    margin: 26px 0 0 96px;
+}
+
+.akshayIcons{
+    margin: 33px 0 0 28px;
+    padding: 10px 0 0 84px;
+
+}
+#aComment{
+    padding: 0 95px 0 0;
+}
+#aRetweet{
+    padding: 0 100px 0 0;
+}
+#aLike{
+    padding: 0 95px 0 0;
+}
 
 
+.fa, .fab, .fad, .fal, .far, .fas{
+ 
+    padding: 0 20px 0 0;
+}
+/* below i have edited the fourt div which is mlm waale bhaiya  */
+.fourthDiv{
+    border: 2px #fcfcfc34;;
+    border-style: ridge;
+    margin: 0 567px 0 422px;
+    padding: 2px 2px 34px 2px;
 
+
+}
+.shashiProfile{
+    width:49px;
+    border-radius: 28px;
+}
+.mlmUpTxt{
+    padding: 0 0 0px 64px;
+    margin: -36px 0 2px 0px;
+
+}
+.shashiPost{
+    padding: 0 0 0 19px;
+}
+.hinditxt{
+    padding: 14px 0px 0px 36px;
+}
+
+.shashiIcons{
+    margin: 33px 0 0 83px;
+    padding: -10px 0 0 84px;
+}
+/* below i have edited the new profile pic section  */
+.fifthDiv{
+    border: 2px #fcfcfc34;;
+    border-style: ridge;
+    margin: 0 567px 0 422px;
+    padding: 2px 2px 34px 2px;
+
+}
+
+.pp{
+    width:61px;
+    border-radius: 28px;
+}
+.ppUpText{
+    padding: 0 0 0px 73px;
+    margin: -36px 0 2px 0px;
+}
+.ppPost{
+    width: 390px;
+    padding: 0 0 0 0;
+    margin: 31px 0 0 65px;
+}
+.ppUpPostTxt{
+    padding: 18px 0 0 103px;
+    margin: 0 0 0 0;
+}
+.ppIcons{
+    padding: 33px 0 0 77px ;
+    margin:  0 0 0 0;
+}
+/* below i have edited the beard section  */
+.sixthDiv{
+    border: 2px #fcfcfc34;
+    border-style: ridge;
+    margin: 0 567px 0 422px;
+    padding: 2px 2px 34px 2px;
+}
+
+
+.beardpp{
+    width:50px;
+    border-radius: 28px;
+
+}
+.beardtxt{
+    padding: 0 0 0px 73px;
+    margin: -63px 0 2px 0px;
+}
+.beardPost{
+    width: 402px;
+    padding: 0 0 0 0;
+    margin: 31px 0 0 65px;
+}
+.beardIcons{
+    padding: 33px 0 0 84px ;
+    margin:  0 0 0 0;
+}
+/* below i have edited the search bar of right section  */
+.search{
+    float: right;
+    border-radius: 30px;
+    margin-top: -1705px;
+    padding: 13px 80px 13px 80px;
+    color: white;
+    background-color: black;
+    margin-right: 184px;
+}
+/* below i have edited the right box  */
+.rightBox{
+    float: right;
+    margin-top: -1643px;
+    color: white;
+    background-color: black;
+    border: 2px #fcfcfc34 ;
+    border-style: ridge;
+    margin-right:  242px;
+    padding: 21px 34px 15px 43px;
+ margin-right: 138px;
+ border-radius: 15px;
+}
+.boxtxt{
+    font-size: small;
+    padding: 0 0 17px 0;
+}
+.txtStartup{
+    font-size: small;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.rightbxTitle{
+    padding: 0 108px 19px 0;
+    margin: 0 -3px 6px 0
+}
+.boxh4{
+    padding: 0 0 50px 0;
+}
+
+/* below i have edited the 2nd box right side  */
+.right2ndbx{
+
+ float: right;
+ margin-top: -992px;
+ color: white;
+    background-color: black;
+    border: 2px #fcfcfc34 ;
+    border-style: ridge;
+    margin-right:  242px;
+    padding: 21px 66px 15px 54px;
+ margin-right: 149px;
+ border-radius: 15px;
+
+}
+.bx2ndTitle{
+    margin: 0 17px 0 0;
+    padding: 0 39px 21px 0
+}
+/* below i have edited the naval's section  */
+.navalPic{
+    width: 36px;
+    border-radius: 24px;
+}
+.navalText{
+    margin: -39px 0px 0px 5px;
+    padding: 0px 0 0px 38px;
+}
+/* below i have edited the shwetabh's section  */
+.shwetabh{
+    margin: 0 0 0 0;
+    padding: 32px 0 0 0;
+}
+.shwetabhPic{
+    width: 36px;
+    border-radius: 24px;
+
+}
+.shwetabhText{
+    margin: -39px 0px 0px 5px;
+    padding: 0px 0 0px 38px;
+
+}
+/* below i have edited the kunal's section  */
+.kunal{
+    margin: 0 0 0 0;
+    padding: 32px 0 0 0;
+}
+.kunalPic{
+    width: 36px;
+    border-radius: 24px;
+}
+.kunalText{
+    margin: -39px 0px 0px 5px;
+    padding: 0px 0 0px 38px;
+}
 
 
 
